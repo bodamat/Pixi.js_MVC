@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8" />
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Pixi.js Falling shapes</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="game">
+        <div class="game-container">
+          <label>
+            Number of current shapes:
+            <input id="number-of-shapes" type="text" readonly />
+          </label>
+          <label>
+            Surface area occupied by shapes:
+            <input id="area-of-shapes" type="text" readonly />
+          </label>
+        </div>
+
+        <div id="game-view"></div>
+
+        <div class="game-container game-controls">
+          <div class="controls shape-spawn-speed-controls">
+            <div class="buttons-controls">
+              <button class="dec">-</button>
+              <button class="inc">+</button>
+            </div>
+            <label>
+              Number of shapes per second:
+              <input id="shape-spawn-speed" type="text" readonly />
+            </label>
+          </div>
+          <div class="controls gravity-value-controls">
+            <div class="buttons-controls">
+              <button class="dec">-</button>
+              <button class="inc">+</button>
+            </div>
+            <label>
+              Gravity force:
+              <input id="gravity-value" type="text" readonly />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="bundle.js"></script>
+  </body>
+</html>

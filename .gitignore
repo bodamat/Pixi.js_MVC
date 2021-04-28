@@ -1,0 +1,8 @@
+*.map
+*.log
+debug/
+dist/
+node_modules/
+.env
+.idea/
+.vscode/
